@@ -1,8 +1,12 @@
-api_hash: your_api_hash
-api_id: your_api_id
+api_hash: 087177b337faceada6b8c5d2f7ac7e64
+api_id: 20505726
+bot_token: 8189274776:AAG9pYO0XEY1TLPP_bEZCMiE3tl6wwugNos
+# phonenumber: 8615602203547
 chat:
-- chat_id: telegram_chat_id
-  last_read_message_id: 0
+- chat_id: -1002621873302
+  last_read_message_id: 213
+  # download_filter: message_date >= 2025-04-01 00:00:00 and message_date <= 2025-04-17
+  #   00:00:00
 file_formats:
   audio:
   - all
@@ -21,4 +25,28 @@ media_types:
 - voice
 - video_note
 # in linux please use /
-# save_path: E:\github\telegram_media_downloader
+save_path: D:\Downloads\telegram_media_downloader
+# upload_drive:
+#   enable_upload_file: true
+#   remote_dir: drive:/telegram
+#   before_upload_file_zip: True
+#   after_upload_file_delete: True
+# hide_file_name: true
+# file_name_prefix:
+# - message_id
+# - file_name
+# file_name_prefix_split: ' - '
+# max_download_task: 5
+# web_host: 127.0.0.1
+# web_port: 5000
+# web_login_secret: 123
+# allowed_user_ids:
+# - 'me'
+# date_format: '%Y_%m'
+# enable_download_txt: false
+
+proxy:
+  scheme: socks5
+  hostname: 127.0.0.1
+  port: 7897
+language: EN
